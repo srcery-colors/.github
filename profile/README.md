@@ -15,7 +15,7 @@ background for long sessions using an editor or terminal emulator.
 
 ## Community
 
-<img src="/profile/assets/discord_logo_workmark_color.svg" />
+<a href="https://discord.gg/G6vBMmZ"><img src="./assets/discord_logo_workmark_color.svg" /></a>
 
 We have an official community over at Dicord.  Please join us
 [there](https://discord.gg/G6vBMmZ)!
