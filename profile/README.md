@@ -1,12 +1,12 @@
 ![Srcery Title Logo](https://raw.githubusercontent.com/srcery-colors/srcery-assets/master/title.png)
 
-Srcery  is a color scheme with clearly defined contrasting colors and a
-slightly earthy tone.
+Welcome to the home of Srcery's projects.  Under this organization we've
+tried to collect all official or affiliated projects.
 
 ## Introduction
 
-Welcome to the home of Srcery's projects.  Under this organization we've
-tried to collect all official or affiliated projects.
+Srcery  is a color scheme with clearly defined contrasting colors and a
+slightly earthy tone.
 
 Created using colors that logically adheres to the 16 color base palette
 of a given terminal, while trying to retain its own identity. The colors
