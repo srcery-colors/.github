@@ -1,12 +1,26 @@
-## Hi there 👋
+![Srcery Title Logo](https://raw.githubusercontent.com/srcery-colors/srcery-assets/master/title.png)
 
-<!--
+Welcome to the home of Srcery's projects.  Under this organization we've
+tried to collect all official or affiliated projects.
 
-**Here are some ideas to get you started:**
+## Introduction
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://guides.github.com/features/mastering-markdown/)
--->
+Srcery  is a color scheme with clearly defined contrasting colors and a
+slightly earthy tone.
+
+Created using colors that logically adheres to the 16 color base palette
+of a given terminal, while trying to retain its own identity. The colors
+are designed to be easy on the eyes yet contrast well with the
+background for long sessions using an editor or terminal emulator.
+
+## Community
+
+<img src="./assets/discord_logo_workmark_color.svg" />
+
+We have an official community over at Dicord.  Please join us
+[there](https://discord.gg/G6vBMmZ)!
+
+## Contribute
+
+We welcome any contribution to the projects.  Come and join us on
+Discord were you can share you work.
