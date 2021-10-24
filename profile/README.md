@@ -1,5 +1,8 @@
 ![Srcery Title Logo](https://raw.githubusercontent.com/srcery-colors/srcery-assets/master/title.png)
 
+[![Support Server](https://img.shields.io/discord/714101903377694741.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/G6vBMmZ)
+
+
 Welcome to the home of Srcery's projects.  Under this organization we've
 tried to collect all official or affiliated projects.
 
