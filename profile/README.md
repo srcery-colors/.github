@@ -27,4 +27,4 @@ We have an official community over at Dicord.  Please join us
 ## Contribute
 
 We welcome any contribution to the projects.  Come and join us on
-Discord were you can share you work.
+Discord where you can share you work.
