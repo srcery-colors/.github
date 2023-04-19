@@ -12,29 +12,41 @@
   <a href="https://github.com/orgs/srcery-colors/repositories">
     <img src="https://img.shields.io/github/stars/srcery-colors?logo=github&style=flat&color=519F50">
   </a>
+
+  <a href="https://www.npmjs.com/package/@srcery-colors/srcery-palette">
+    <img src="https://img.shields.io/npm/v/@srcery-colors/srcery-palette?color=%23FBB829&label=Palette%20version&logo=npm">
+  </a>
 </p>
 
-Welcome to the home of Srcery's projects.  Under this organization we've
-tried to collect all official or affiliated projects.
-
-## Introduction
-
+<p align="center">
 Srcery  is a color scheme with clearly defined contrasting colors and a
 slightly earthy tone.
+
+</p>
+
+### Introduction
 
 Created using colors that logically adheres to the 16 color base palette
 of a given terminal, while trying to retain its own identity. The colors
 are designed to be easy on the eyes yet contrast well with the
 background for long sessions using an editor or terminal emulator.
 
-## Community
+Welcome to the home of Srcery's projects.  Under this organization we've
+tried to collect all official or affiliated projects.
+
+### Community
 
 <a href="https://discord.gg/G6vBMmZ"><img src="https://raw.githubusercontent.com/srcery-colors/.github/main/profile/assets/discord_logo_workmark_color.svg" /></a>
 
-We have an official community over at Dicord.  Please join us
+We have an official community over at Discord.  Please join us
 [there](https://discord.gg/G6vBMmZ)!
+
+### Resources
+
+- [Palette in JSON format](https://github.com/srcery-colors/srcery-palette)
+- [Srcery terminal configurations](https://github.com/srcery-colors/srcery-terminal)
 
 ## Contribute
 
-We welcome any contribution to the projects.  Come and join us on
-Discord where you can share you work.
+We welcome any contribution to the projects. Open a pull request, an issue, or
+join us on [Discord](https://discord.gg/G6vBMmZ) and share it with the community.
