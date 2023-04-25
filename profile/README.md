@@ -41,6 +41,12 @@ tried to collect all official or affiliated projects.
 We have an official community over at Discord.  Please join us
 [there](https://discord.gg/G6vBMmZ)!
 
+### [Merchandise](https://srcery-colors.creator-spring.com/)
+
+Get our brand new merchandise featuring the Srcery color scheme color scheme!
+We're not making any profit from the sales, so you can show your support at
+cost. Thank you for helping us develop and improve our color scheme.
+
 ### Resources
 
 - [Palette in JSON format](https://github.com/srcery-colors/srcery-palette)
