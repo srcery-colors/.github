@@ -43,7 +43,7 @@ We have an official community over at Discord.  Please join us
 
 ### [Merchandise](https://srcery-colors.creator-spring.com/)
 
-Get our brand new merchandise featuring the Srcery color scheme color scheme!
+Get our brand new merchandise featuring the Srcery color scheme!
 We're not making any profit from the sales, so you can show your support at
 cost. Thank you for helping us develop and improve our color scheme.
 
