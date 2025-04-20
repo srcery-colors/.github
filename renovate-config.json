@@ -11,7 +11,7 @@
 
   "packageRules": [
     {
-      "matchPackageNames": ["eslint"],
+      "matchPackageNames": ["eslint", "@eslint/js"],
       "automerge": true,
       "extends": ["schedule:automergeNonOfficeHours"]
     }
