@@ -4,7 +4,8 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    "helpers:pinGitHubActionDigestsToSemver"
+    "helpers:pinGitHubActionDigestsToSemver",
+    ":maintainLockFilesWeekly"
   ],
 
   "enabledManagers": [],
