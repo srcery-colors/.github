@@ -5,7 +5,8 @@
     "config:best-practices",
     ":label(dependencies)",
     "helpers:pinGitHubActionDigestsToSemver",
-    ":maintainLockFilesWeekly"
+    ":maintainLockFilesWeekly",
+    ":semanticCommits"
   ],
 
   "enabledManagers": [],
