@@ -5,7 +5,6 @@
     "config:best-practices",
     ":label(dependencies)",
     "helpers:pinGitHubActionDigestsToSemver",
-    ":maintainLockFilesWeekly",
     ":semanticCommits"
   ],
 
@@ -13,9 +12,31 @@
 
   "packageRules": [
     {
-      "matchPackageNames": ["eslint", "@eslint/js"],
-      "automerge": true,
-      "extends": ["schedule:automergeNonOfficeHours"]
+      "description": "Automerge dependency pins",
+      "matchUpdateTypes": ["pin"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge stable non-major updates",
+      "matchCurrentVersion": "!/^0/",
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge non-major GitHub Actions updates",
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge lock file maintenance",
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "automerge": true
+    },
+    {
+      "description": "Require approval for major updates",
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
     }
   ]
 }
