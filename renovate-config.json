@@ -10,6 +10,8 @@
 
   "enabledManagers": [],
 
+  "prHourlyLimit": 4,
+
   "packageRules": [
     {
       "description": "Automerge dependency pins",
