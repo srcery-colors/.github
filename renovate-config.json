@@ -13,6 +13,18 @@
 
   "prHourlyLimit": 4,
 
+  "customManagers": [
+    {
+      "description": "Track the gh-actions-lock extension pin in workflows",
+      "customType": "regex",
+      "managerFilePatterns": ["/^\\.github\\/workflows\\/[^/]+\\.ya?ml$/"],
+      "matchStrings": [
+        "gh extension install (?<depName>github/gh-actions-lock) --pin (?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+      ],
+      "datasourceTemplate": "github-releases"
+    }
+  ],
+
   "packageRules": [
     {
       "description": "Automerge dependency pins",
@@ -30,6 +42,11 @@
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "automerge": true
+    },
+    {
+      "description": "Wait a week before proposing GitHub Actions updates",
+      "matchManagers": ["github-actions"],
+      "minimumReleaseAge": "7 days"
     },
     {
       "description": "Automerge lock file maintenance",
