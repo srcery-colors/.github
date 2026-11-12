@@ -4,9 +4,10 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    "helpers:pinGitHubActionDigestsToSemver",
     ":semanticCommits"
   ],
+
+  "ignorePresets": ["helpers:pinGitHubActionDigests"],
 
   "enabledManagers": [],
 
