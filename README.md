@@ -14,6 +14,19 @@ Repositories can inherit the shared Renovate preset with:
 
 The preset defines the organization-wide dependency update policy. Repository-specific managers, grouping, and custom-manager behavior should stay in the consuming repository.
 
+### Shared custom managers
+
+The preset also extends Renovate's built-in `customManagers:biomeVersions`, which keeps the `$schema` URL in `biome.json`/`biome.jsonc` in sync with `@biomejs/biome` releases.
+
+Because the preset sets `enabledManagers: []`, shared custom managers stay inactive until a repository opts in. A repository that uses Biome only needs to enable the `custom.jsonata` manager:
+
+```json
+{
+  "extends": ["github>srcery-colors/.github:renovate-config"],
+  "enabledManagers": ["custom.jsonata", "npm"]
+}
+```
+
 ### Automerge policy
 
 The shared preset enables automerge for routine updates that should not normally require manual handling:
