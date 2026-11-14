@@ -4,7 +4,8 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    ":semanticCommits"
+    ":semanticCommits",
+    "customManagers:biomeVersions"
   ],
 
   "ignorePresets": ["helpers:pinGitHubActionDigests"],
